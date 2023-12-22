@@ -9,7 +9,7 @@ function App() {
         <img src={blazeLogo} className="logo" alt="Blaze logo" />
       </div>
       <h1>Blaze labs.</h1>
-      <h2>
+      <h2 className="typewriter">
         All in one solutions for trail
         <span className="blaze">blaze</span>rs.
       </h2>
@@ -20,14 +20,14 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaDiscord className="reactIcon" /> Discord
+            <FaDiscord id="discord" /> <span className="name">Discord</span>
           </a>
           <a
             href="https://twitter.com/Blaze_Labs"
             target="_blank"
             rel="noreferrer"
           >
-            <FaXTwitter className="reactIcon" /> Twitter
+            <FaXTwitter id="twitter" /> <span className="name">Twitter</span>
           </a>
         </div>
         <p>© 2023 Blaze Labs, Inc. All Rights Reserved.</p>
