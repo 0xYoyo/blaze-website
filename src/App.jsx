@@ -30,7 +30,7 @@ function App() {
             <FaXTwitter id="twitter" /> <span className="name">Twitter</span>
           </a>
         </div>
-        <p>© 2023 Blaze Labs, Inc. All Rights Reserved.</p>
+        {/* <p>© 2023 Blaze Labs, Inc. All Rights Reserved.</p> */}
       </div>
     </>
   );
